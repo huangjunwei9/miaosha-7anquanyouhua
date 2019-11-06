@@ -23,7 +23,7 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver{
     MiaoshaUserService miaoshaUserService;
 
     /* 测试此 service 是否能使用指定的参数parameter。如果此服务不能使用该参数，则返回 false。
-    * 如果此服务能使用该参数、快速测试不可行或状态未知，则返回 true。
+    *  如果此服务能使用该参数、快速测试不可行或状态未知，则返回 true。
     * */
     @Override
     public boolean supportsParameter(MethodParameter parameter) {
